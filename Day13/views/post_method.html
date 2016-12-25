@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>聊天室入口</title>
+</head>
+
+<body>
+	<div class="container">
+		<form method="POST" id="register" action="/mydir/hello" class="col-md-offset-3 col-md-6">
+			<h1>訪客註冊</h1>
+			<div class="form-group">
+				<label for="name">你的名字</label>
+				<input type="text" name="name" id="name" placeholder="輸入名字" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="country">來自哪裡</label>
+				<input type="text" name="country" id="country" placeholder="輸入城市" class="form-control">
+			</div>
+			<button type="submit" class="btn btn-primary">進入聊天室</button>
+		</form>
+	</div>
+</body>
+</html>

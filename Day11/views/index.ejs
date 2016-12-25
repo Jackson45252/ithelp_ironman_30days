@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>Index</title>
+</head>
+
+<body>
+	<div class="container">
+		<% if (title) {%>
+    		<h1><%= title %><h1>
+    	<% } else { %>
+    		<h1>預設文字</h1>
+   		<% } %>
+    	<p><%= description %></p>
+	</div>
+	
+</body>
+</html>

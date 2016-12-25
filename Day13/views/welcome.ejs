@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<title>註冊成功！</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1>註冊成功！</h1>
+		<% if (userID) {%>
+    		<p>使用者ID：<%= userID %></p>
+    	<% } else { %>
+    		<p>使用者ID：預設文字</p>
+   		<% } %>
+    	<p>手機號碼：<%= mobile %></p>
+	</div>
+</body>
+</html>
